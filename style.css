@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppings', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #24194d;
+    color: #73bb6d;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.boxcolor {
+    width: 90%;
+    max-width: 590px;
+    background: linear-gradient(135deg, #8861dc2a, #e477b1);
+    color: #bdb3b3;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #5792f9;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+    margin-top: 140px;
+
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: -999px;
+    margin-top: -210px;
+
+
+
+
+}
+
+.container h1 span {
+    color: rgb(255, 81, 81);
+    padding-bottom: 7px;
+    margin-right: -490px;
+    position: absolute;
+}
+
+.display img {
+    width: 42px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 10px;
+    font-size: 29px;
+    background: #5792f9;
+
+
+}
+
+.container button img {
+    width: 22px;
+    margin-right: 20px;
+    ma
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #333;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    cursor: pointer;
+}
+
+.gif img{
+    width: 120px;
+    margin-top: -380px;
+    right: 50px;
+    position: absolute;
+    border-bottom: 3px solid #000000 ;
+    padding-bottom: -10px;
+    
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 5%;
+        width: 100%;
+    }
+
+    .boxcolor {
+        width: 100%;
+        padding: 20px 15px;
+        margin-top: 190px;
+        position: absolute;
+    }
+
+    .display {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 10px;
+        position: relative;
+        left: -20px;
+        margin-top: 10px;
+        
+        
+    }
+
+    .display input {
+        font-size: 20px;
+        
+        width: 100%;
+       
+    }
+
+    .display img {
+        width: 30px;
+        align-self: flex-end;
+    }
+
+    .container h1 {
+        position: absolute;
+        font-size: 28px;
+        text-align: center;
+        margin: 0;
+        margin-top: -205px;
+        position: absolute;
+
+
+    }
+
+    .container button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .gif img {
+        width: 80px;
+       margin-top: 10px;
+        right: 10px;
+        position: absolute;
+        
+    }
+}
+
