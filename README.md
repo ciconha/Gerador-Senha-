@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido para criação de Senhas automaticas, uma automaç
 | Recurso       | Descrição |
 |--------------|----------|
 | **Frontend** | Interface criada com html e css  |
-| **Backend** | Para gerar senhas numeros, símbulos e letras em conjunto  |
+| **Backend** | Para gerar senhas numeros, símbulos e letras em conjunto, além de salvar a senha na sua área de trabalho |
 
 
 
